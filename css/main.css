@@ -1,10 +1,64 @@
+body { 
+    background-color: f8f8f8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header {
-background-color: red;
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
 } 
-main {
-background-color: blue;
+
+header > img {
+    float: left;
 
 }
+
 nav {
+    float: right;
+
+
+}
+
+a {
+
+
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
     background-color: yellow;
+}
+
+div {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: blue;
+
+
+}
+
+h1 {
+
+
+}
+
+p {
+
+
+}
+
+main > img {
+    width: 50%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+    background-color: red;
+
 }
